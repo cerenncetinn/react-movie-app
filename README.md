@@ -1,4 +1,4 @@
-#  Movie App (React)
+# Movie App (React)
 
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Vite](https://img.shields.io/badge/Vite-fast-yellow)
@@ -8,25 +8,25 @@ Modern React (Vite) kullanılarak geliştirilmiş bu uygulama, kullanıcıların
 
 ---
 
-##  Canlı Demo
+## Canlı Demo
 
- https://your-app.vercel.app
-
----
-
-##  Özellikler
-
- - Dinamik Arama: TMDB veri tabanında anlık film arama.
- - Popüler & Benzer Filmler: Trend olan içerikleri keşfetme ve seçilen filme benzer önerileri görme.
- - Detaylı Analiz: Oyuncu kadrosu, türler, puanlama ve süre bilgilerini içeren kapsamlı detay sayfası.
- - Watchlist (İzleme Listesi): Context API ve LocalStorage ile desteklenen kişisel favori listesi.
- - Tema Desteği: Dark / Light mode geçiş özelliği.
- - Gelişmiş Formlar: Custom Hook (useInput) ile yönetilen, validasyonlu giriş ve kayıt ekranları.
- - Sayfalama (Pagination): Arama sonuçlarında akıcı gezinti.
+https://react-movie-app-two-sand.vercel.app
 
 ---
 
-##  Kullanılan Teknolojiler
+## Özellikler
+
+- Dinamik Arama: TMDB veri tabanında anlık film arama.
+- Popüler & Benzer Filmler: Trend olan içerikleri keşfetme ve seçilen filme benzer önerileri görme.
+- Detaylı Analiz: Oyuncu kadrosu, türler, puanlama ve süre bilgilerini içeren kapsamlı detay sayfası.
+- Watchlist (İzleme Listesi): Context API ve LocalStorage ile desteklenen kişisel favori listesi.
+- Tema Desteği: Dark / Light mode geçiş özelliği.
+- Gelişmiş Formlar: Custom Hook (useInput) ile yönetilen, validasyonlu giriş ve kayıt ekranları.
+- Sayfalama (Pagination): Arama sonuçlarında akıcı gezinti.
+
+---
+
+## Kullanılan Teknolojiler
 
 - React (Hooks, Context API)
 - React Router (v6)
@@ -36,7 +36,7 @@ Modern React (Vite) kullanılarak geliştirilmiş bu uygulama, kullanıcıların
 
 ---
 
-##  Mimari Yaklaşım
+## Mimari Yaklaşım
 
 Bu projede:
 
@@ -50,7 +50,7 @@ kullanılmıştır.
 
 ---
 
-##  Proje Yapısı
+## Proje Yapısı
 
 ```
 src/
@@ -68,7 +68,7 @@ src/
 
 ---
 
-##  Kurulum
+## Kurulum
 
 Projeyi lokalde çalıştırmak için:
 
@@ -81,7 +81,7 @@ npm run dev
 
 ---
 
-##  Environment Variables
+## Environment Variables
 
 API anahtarı güvenliği için `.env` dosyası kullanılır.
 
@@ -99,41 +99,49 @@ const api_key = import.meta.env.VITE_TMDB_API_KEY;
 
 ---
 
-##  API
+## API
 
 Bu proje film verilerini **The Movie Database (TMDB)** API üzerinden çekmektedir.
 
 ---
 
-##  Ekran Görüntüleri
+## Ekran Görüntüleri
 
-###  Home
+### Home
+
 ![Home](img/home_.png)
 
 ### Film Detayı
+
 ![Film Detay](img/film1.png)
 
 ### Oyuncu Kadrosu
+
 ![Oyuncu Kadrosu](img/film2.png)
 
-### Benzer Filmler 
+### Benzer Filmler
+
 ![Benzer Filmler](img/film3.png)
 
 ### Watchlist
+
 ![Watchlist](img/watchlist.png)
 
 ### Login
+
 ![Login](img/login.png)
 
 ### Register
+
 ![Register](img/register.png)
 
 ### Movies
+
 ![Movies](img/movies.png)
 
 ---
 
-##  Öğrenilen Konular
+## Öğrenilen Konular
 
 - Context API ile global state yönetimi
 - Custom hook (useInput) geliştirme
@@ -144,15 +152,13 @@ Bu proje film verilerini **The Movie Database (TMDB)** API üzerinden çekmekted
 
 ---
 
-##  Geliştirilebilir Alanlar
+## Geliştirilebilir Alanlar
 
--  Gerçek authentication sistemi
--  Debounce ile search optimizasyonu
--  React Query / SWR ile API caching
--  Skeleton loading UI
--  Lazy loading (code splitting)
--  Test (Jest / React Testing Library)
+- Gerçek authentication sistemi
+- Debounce ile search optimizasyonu
+- React Query / SWR ile API caching
+- Skeleton loading UI
+- Lazy loading (code splitting)
+- Test (Jest / React Testing Library)
 
 ---
-
-
